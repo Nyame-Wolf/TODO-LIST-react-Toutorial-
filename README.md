@@ -1,3 +1,26 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Todo List a React Toutorial
+
+**This project follows [this toutorial](https://ibaslogic.com/react-tutorial-for-beginners/) to build a todo-list using react.**
+
+## Built With
+
+- HTML
+- CSS
+- Javascript
+- React
+
+## Live Demo (if available)
+
+[Live Demo Link](https://livedemo.com)
+
+### Prerequisites
+
+- vscode or any ide
+- Terminal
+- Node
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -6,6 +29,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### Setup
+
+- Clone this repo ~$ git clone
+  - http : https://github.com/Nyame-Wolf/math-magicians.git
+  - ssh :git@github.com:Nyame-Wolf/math-magicians.git
+- Change directory to movie app ~$ cd movie-app
+
+### Install
+
+### `npm install`
+
+### Usage
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -13,6 +49,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### Run tests
 
 ### `npm test`
 
@@ -39,32 +77,31 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub: [@Nyame-Wolf](https://github.com/Nyame-Wolf)
+- Twitter: [@mumenyam](https://twitter.com/mumenyam)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mumenya-nyamu-web-designer-data-enthusiast/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Nyame-Wolf/TODO-LIST-react-Toutorial-/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [React toutorial] (https://ibaslogic.com/react-tutorial-for-beginners/)
+- Inspiration
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
