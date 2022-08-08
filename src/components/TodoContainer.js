@@ -34,12 +34,16 @@ handleChange = id =>{
       return todo;
     }),
   }))
-}
+};
+
+delTodo = id => {
+  console.log("deleted", id)
+};
     render(){
         return(
             <div>
                 <Header />
-                <TodoList todos={this.state.todos} handleChange={this.handleChange} />
+                <TodoList todos={this.state.todos} handleChangeProps={this.handleChange} deleteTodoProps={this.delTodo}/>
             </div>
         )
     }

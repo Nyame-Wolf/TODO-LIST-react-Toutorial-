@@ -9,7 +9,8 @@ class TodoList extends React.Component{
             {this.props.todos.map(todo =>(
             <TodoItem key={todo.id}
              todo={todo}
-             handleChange={this.props.handleChange}
+             handleChangeProps={this.props.handleChangeProps}
+             deleteTodoProps={this.props.deleteTodoProps}
               />
             ))}
           </ul>
