@@ -12,12 +12,17 @@ class InputTodo extends Component{
     };
     handleSubmit = e =>{
         e.preventDefault();
-       this.props.addTodoProps(this.state.title);
+        if(this.state.title.trim()){
+this.props.addTodoProps(this.state.title);
        this.setState({
-        title: ""
+        title: "",
        });
+        }else{
+            alert("Please write iem")
+        }
+       
     }; 
-    
+
     render(){
         return (
             <form onSubmit={this.handleSubmit}>

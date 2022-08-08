@@ -50,7 +50,7 @@ delTodo = id => {
 };
 addTodoItem = title =>{
   const newTodo = {
-    id: 4,
+    id: uuidv4(),
     title: title,
     completed: false
   };
