@@ -45,7 +45,11 @@ let editMode = {}
                 <input type="text" 
                 style={editMode} 
                 className={styles.textInput}
-                value={title} /> 
+                value={title} 
+                 onChange={e => {
+                    this.props.setUpdate(e.target.value, id)
+                }}
+                /> 
             </li>
         )
     }
